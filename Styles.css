@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    align-content: space-between;
+}
+.container1{
+    width: 50px;
+    height: 200px;     
+}
+.container2{
+    margin-left: 70%;
+} 
+#heading{
+    color: greenyellow;
+   }
+.form{
+    color:brown;
+}
+#icon{
+    font-size: 100px;
+    color: greenyellow;
+}
+button{
+    color:cornflowerblue;
+    background-color:rgb(145, 110, 47);
+    padding: 10px 20px;
+    /* margin: 5%; */
+    border-radius: 10px;
+}
+h3{
+    color:blue;
+}
+#signin{
+    color: beige;
+    background-color: rgb(151, 119, 180);
+}
+        /* login.html CSS */
+
+cont2{
+ margin-top: 10%;
+}
+        #image{
+            float: left;
+            width: auto;
+            
+        }
+        .form{
+            color: brown;
+        }
+        #heading{
+            margin-bottom: 0%;
+            color:black;
+        }
+        #greeting{
+            color:rgb(63, 3, 119);
+        }
+        #button{
+            color:beige ;
+        }
+
+        body{text-align: center;
+            background-color:rgb(134, 131, 134)
+        }
+        

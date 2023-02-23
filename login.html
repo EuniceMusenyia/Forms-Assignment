@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
     <title>signup</title>
-    <style>
+    <!-- <style>
         #image{
             float: left;
             width: auto;
@@ -28,15 +29,15 @@
         body{text-align: center;
             background-color:cadetblue;
         }
-    </style>
+    </style> -->
 </head>
 <body>
-    <form class="form">
-       <img id="image" src="Login Image.avif" alt="sign up image">
-       <h1 id="heading">Welcome to our online learning platform</h1>
+   <div  class="maincontainer2"> 
+       <div class="container1"><img id="image" src="Login Image.avif" alt="sign up image"></div>
+       <div class="cont2"> <h1 id="heading">Welcome to our online learning platform</h1>
        <h3 id="greeting">We are so glad you are here <span>&#128525</span></h3>
        
-       <label for="first name"> First Name:</label>
+       <form class="form"> <label for="first name"> First Name:</label>
        <input type="text" name="First name">
        <br>
        <br>
@@ -48,21 +49,20 @@
        <input type="email" name="E-mail">
        <br>
        <br>
+
        <label for="password"> Password:</label>
        <input type="password" name="Password"> 
        <br>
+    </form>
+       
        <br>
        <input type="checkbox" name="checkbox">
        <span>Remember me</span> 
-       <br>
-       <br>
        
-       <a href="table.html">Create an account</a></h3>
-       <h5 >Already have an account? <a href="Index.html">Sign in</a></h5>
-       
+       <h5 >Already have an account? <a href="table.html">Log in</a></h5>
+    </div>
 
 
-    </form>
-    
+</div>
 </body>
 </html>
